@@ -33,8 +33,8 @@ TI Provided Material:
 # Homeworks
 There will be two homeworks that will help and prepare you for the project:
 
-- [HW 1: 1D Beamforming & Matched Filter](homework_1.ipynb): Introduction to radar image processing: beamforming, matched filter, and synthetic aperture radar in one dimension. You can use the data in the link [here](https://drive.google.com/drive/folders/1nlwuhJWaXnyrXdVq2ced3E1wyYrFIIHH?usp=sharing). 
-- [HW 2: 2D Algorithms](homework_2.ipynb): Extend the two algorithms to 2D. 
+- [HW 1: 1D Beamforming & Matched Filter](homework/homework_1.ipynb): Introduction to radar image processing: beamforming, matched filter, and synthetic aperture radar in one dimension. You can use the data in the link [here](https://drive.google.com/drive/folders/1nlwuhJWaXnyrXdVq2ced3E1wyYrFIIHH?usp=sharing). 
+- [HW 2: 2D Algorithms](homework/homework_2.ipynb): Extend the two algorithms to 2D. 
 
 # General Info
 - **Platforms Storage:** For the mmWave radars, we give them to you for the duration of the project, so you can take them home. If you wish to store them at EPFL, you can book a locker avaliable for students [here](https://mycamipro.epfl.ch/client/lockerassign). 
