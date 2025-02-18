@@ -21,7 +21,7 @@ Advanced Topics:
 
 # Study Material: Tutorials
 TI mmWave Radar Setup:
-- [Getting started with TI Radars](Radar_Setup.pdf): Document steps you through installation and set up for radars and this GitHub repo.
+- [Getting started with TI Radars](Radar_setup.pdf): Document steps you through installation and set up for radars and this GitHub repo.
 - [Recorded Tutorial](https://drive.google.com/file/d/1uaS0wtz7ObpLxDCFIc6ieWcw1DtBLeYQ/view?usp=sharing): Note that you still need to set up your computer as described in the Wiki before following this.
 
 TI Provided Material:
