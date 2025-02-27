@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 def get_ant_pos_1d(num_x_stp, num_rx):
+    num_x_stp_ = num_x_stp // num_rx
     # define the antenna spacing
     lm = 3e8/77e9 # define lambda for the antenna spacing
 
@@ -13,7 +14,7 @@ def get_ant_pos_1d(num_x_stp, num_rx):
     rx_pos = np.reshape(np.arange(1,num_rx+1,dtype=float),(-1,1)) * -lm / 2
 
     # this is the locations of the locations of the radar (we are moving it by lambda) 
-    x_pos = (np.reshape(np.arange(1,num_x_stp+1,dtype=float),(-1,1))) * lm
+    x_pos = (np.reshape(np.arange(1,num_x_stp_+1,dtype=float),(-1,1))) * lm
 
     # antenna positions for all receivers in the entire scan. /lm so that we don't have two factors of lm when we multiply them
     ant_pos = np.reshape(np.array([rx_pos + x_pos[i] for i in range(len(x_pos))]),(-1,1))
@@ -22,12 +23,13 @@ def get_ant_pos_1d(num_x_stp, num_rx):
     return ant_pos
 
 def get_ant_pos_2d(num_x_stp, num_z_stp, num_rx):
+    num_x_stp_ = num_x_stp // num_rx
     # define the antenna spacing
 
     lm = 3e8/77e9 # define lambda for the antenna spacing
     stp_size = 300*lm/4/369 # step size in the z (vertical) direction
     rx_pos = np.reshape(np.arange(1,num_rx+1,dtype=float),(-1,1)) * -lm / 2 # receiver positions 
-    x_pos = (np.reshape(np.arange(0,num_x_stp,dtype=float),(-1,1)) * lm).T # x (horizontal) positions of the radar
+    x_pos = (np.reshape(np.arange(0,num_x_stp_,dtype=float),(-1,1)) * lm).T # x (horizontal) positions of the radar
     x_ant_pos = np.reshape(np.squeeze(np.array([rx_pos + x_pos[0,i] for i in range(x_pos.shape[1])])),(-1,1)) # complete position of every receiver antenna
 
     # make it 0 indexed
