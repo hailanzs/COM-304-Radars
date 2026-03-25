@@ -42,3 +42,6 @@ There will be two homeworks that will help and prepare you for the project:
 
 # General Info
 - **Platforms Storage:** For the mmWave radars, we give them to you for the duration of the project, so you can take them home. If you wish to store them at EPFL, you can book a locker avaliable for students [here](https://mycamipro.epfl.ch/client/lockerassign). 
+
+# Previous Student Project Repos
+- [Real-Time Human Tracking with mmWave Radar](https://github.com/COM-304-Group-2/COM-304-Radars)
