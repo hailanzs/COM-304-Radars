@@ -30,7 +30,7 @@ TI Provided Material:
 - [TI Chirp Paramter Understanding](https://www.ti.com/lit/an/swra553a/swra553a.pdf?ts=1684912880969&ref_url=https3A2F2Fwww.ti.com2Ftool2FMMWAVE-DFP)
 
 Our Provided Material:
-- [Mac/Linux with TI Radars Documentation](https://github.com/Tkemper2/COM-304-Radar-tuto)
+- [Mac/Linux with TI Radars Documentation](https://github.com/hailanzs/Radar-Max-Linux)
 - [Getting Started with Radar Tutorial](https://github.com/hailanzs/com-405-radar-tutorial)
 
 
